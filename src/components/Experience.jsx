@@ -12,10 +12,10 @@ const ExperienceCard = ({ experience }) => {
     return (
         <VerticalTimelineElement
             contentStyle={{
-                background: "#1d1836",
-                color: "#fff",
+                background: "#050c0F",
+                color: "#ece6df",
             }}
-            contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+            contentArrowStyle={{ borderRight: "7px solid  #D5CEA3" }}
             date={experience.date}
             iconStyle={{ background: experience.iconBg }}
             icon={
@@ -28,26 +28,28 @@ const ExperienceCard = ({ experience }) => {
                 </div>
             }
         >
-            <div>
-                <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
+
+            <div >
+                <h3 className='text-[#ece6df] text-2xl mb-1 font-bold'>{experience.title}</h3>
                 <p
-                    className='text-secondary text-[16px] font-semibold'
-                    style={{ margin: 0 }}
+                    className='text-xl font-semibold'
                 >
                     {experience.company_name}
                 </p>
             </div>
 
-            <ul className='mt-5 list-disc ml-5 space-y-2'>
+            <ul className='mt-5 list-disc ml-5 space-y-2 text-[#ece6df]'>
                 {experience.points.map((point, index) => (
                     <li
                         key={`experience-point-${index}`}
-                        className='text-white-100 text-[14px] pl-1 tracking-wider'
+                        className='text-md pl-1 tracking-wider font-subtext '
                     >
                         {point}
                     </li>
                 ))}
             </ul>
+
+
         </VerticalTimelineElement>
     )
 }
@@ -56,21 +58,24 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
     return (
         <>
-            <div className='px-2 bg-cyan-500 md:px-10 pt-10 pb-10'>
-                <motion.div variants={textVariant()} >
-                    <p className='text-sm mb-1 font-semibold z-10'>
-                        A glimpse into my professional journey
-                    </p >
-                    <p className='text-5xl mb-3 font-bold tracking-wide'>
-                        Work Experience
-                    </p>
-                </motion.div >
-                <div className='mt-20 flex flex-col'>
-                    <VerticalTimeline >
-                        {experiences.map((exp, index) => <ExperienceCard key={index} experience={exp} />)}
-                    </VerticalTimeline>
+            <section className='p-2 lg:mb-10'>
+                <div className='px-2 bg-[#050c0F] md:px-10 pt-10 pb-10 border-2 border-[#ece6df]'>
+                    <motion.div variants={textVariant()} >
+                        <p className='text-lg mb-1 font-normal z-10 text-[#ece6df]'>
+                            A glimpse into my professional journey
+                        </p >
+                        <p className='text-7xl mb-3 font-bold tracking-wide text-[#ece6df]'>
+                            Work Experience
+                        </p>
+                    </motion.div >
+                    <div className='mt-20 flex flex-col'>
+                        <VerticalTimeline >
+                            {experiences.map((exp, index) => <ExperienceCard key={index} experience={exp} />)}
+                        </VerticalTimeline>
+                    </div>
                 </div>
-            </div>
+            </section>
+
 
         </>
     )

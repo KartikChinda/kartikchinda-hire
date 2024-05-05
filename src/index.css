@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,8 +8,11 @@
 
 @layer base {
     html {
-        font-family: "DotGothic16", system-ui, sans-serif;
+        font-family: "Big Shoulders Display", sans-serif;
+        /* font-family: "Heebo", sans-serif; */
+
         /* letter-spacing: 1px; */
         /* background-c?olor: black; */
+        background-color: #050c0F;
     }
 }

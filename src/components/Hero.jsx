@@ -12,9 +12,9 @@ const Hero = () => {
                     <button onClick={() => {
                         window.scrollBy(0, 100);
                     }}>
-                        <div className='w-[35px] h-[64px] rounded-3xl border-4 border-white-400 flex justify-center items-start p-2'>
+                        <div className='w-[35px] h-[64px] rounded-3xl border-4 border-[#ece6df] flex justify-center items-start p-2'>
                             <motion.div animate={{ y: [0, 24, 0] }} transition={{ duration: 1.3, repeat: Infinity, repeatType: 'loop' }}
-                                className="w-3 h-3 rounded-full bg-yellow-500"
+                                className="w-3 h-3 rounded-full bg-[#ece6df]"
                             />
                         </div>
                     </button>

@@ -2,7 +2,7 @@ import React from 'react';
 // import { useState } from 'react';
 // import { navLinks } from '../constants';
 // import { Link } from 'react-router-dom';
-import { logo } from '../assets';
+import { logoColor } from '../assets';
 
 
 
@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className='px-16 md:px-6 w-full flex items-center py-3 fixed z-20 top-0 bg-black '>
+            <nav className='px-16 md:px-6 w-full flex items-center py-3 fixed z-20 top-0 bg-[#050c0F] '>
 
                 <div className='w-full flex justify-center md:justify-between items-center xl:px-20 pr-5'>
                     {/* <Link to="/" className='flex items-center gap-2' onClick={() => {
@@ -27,10 +27,10 @@ const Navbar = () => {
                         e.preventDefault();
                         window.scrollTo(0, 0);
                     }}>
-                        <img src={logo} alt="imgLogo" className='w-20 h-20 object-contain ' />
+                        <img src={logoColor} alt="imgLogo" className='w-20 h-20 object-contain ' />
                     </a>
 
-                    <p className='text-white text-[18px] font-bold cursor-pointer md:block hidden font-dot'>K&nbsp; &nbsp;  A&nbsp; &nbsp; R&nbsp; &nbsp; T&nbsp; &nbsp; I&nbsp; &nbsp; K&nbsp; &nbsp; &nbsp; &nbsp; C&nbsp; &nbsp; H&nbsp; &nbsp; I&nbsp; &nbsp; N&nbsp; &nbsp; D&nbsp; &nbsp; A </p>
+                    <p className='text-[#ece6df] text-[18px] font-bold cursor-pointer md:block hidden font-dot'>K&nbsp; &nbsp;  A&nbsp; &nbsp; R&nbsp; &nbsp; T&nbsp; &nbsp; I&nbsp; &nbsp; K&nbsp; &nbsp; &nbsp; &nbsp; C&nbsp; &nbsp; H&nbsp; &nbsp; I&nbsp; &nbsp; N&nbsp; &nbsp; D&nbsp; &nbsp; A </p>
                     {/* </Link> */}
                     {/* <ul className='list-none hidden sm:flex flex-row gap-10'>
                         {navLinks.map((link) => (

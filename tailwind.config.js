@@ -8,6 +8,8 @@ export default {
     extend: {
       fontFamily: {
         'dot': ['DotGothic16'],
+        'heading': ['Big Shoulders Display'],
+        'subtext': ['Heebo']
       }
     },
   },
