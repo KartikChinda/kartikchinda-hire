@@ -8,20 +8,21 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
+    next,
+    postgres,
+    cplusplus,
+    c,
     drdo,
     dps,
     wloo,
     carrent,
     jobit,
     tripguide,
-    threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -80,10 +81,6 @@ const technologies = [
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
         name: "Tailwind CSS",
         icon: tailwind,
     },
@@ -96,21 +93,30 @@ const technologies = [
         icon: mongodb,
     },
     {
-        name: "Three JS",
-        icon: threejs,
-    },
-    {
         name: "git",
         icon: git,
     },
     {
-        name: "figma",
-        icon: figma,
+        name: "C",
+        icon: c,
     },
     {
-        name: "docker",
-        icon: docker,
+        name: "C++",
+        icon: cplusplus,
     },
+    {
+        name: "PostgreSQL",
+        icon: postgres,
+    },
+    {
+        name: "NextJs",
+        icon: next,
+    },
+    {
+        name: "Figma",
+        icon: figma,
+    },
+
 ];
 
 const experiences = [

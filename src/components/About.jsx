@@ -32,7 +32,7 @@ const About = () => {
                     <p className='text-sm mb-1 font-semibold '>
                         If the name hasn't <br /> made it clear yet...
                     </p>
-                    <p className='text-5xl mb-3 font-bold tracking-widee'>
+                    <p className='text-5xl mb-3 font-bold tracking-wide'>
                         Who am I?
                     </p>
                     <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-10 text-xl font-semibold leading-8 pb-5'>
