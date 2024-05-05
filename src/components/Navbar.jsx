@@ -15,8 +15,9 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className='px-16 md:px-6 w-full flex justify-between items-center py-3 fixed z-20 top-0 bg-black '>
-                <div className='  w-full flex justify-center items-center max-w-7xl md:justify-between lg:justify-between lg:w-[1200px] '>
+            <nav className='px-16 md:px-6 w-full flex items-center py-3 fixed z-20 top-0 bg-black '>
+
+                <div className='w-full flex justify-center md:justify-between items-center  '>
                     {/* <Link to="/" className='flex items-center gap-2' onClick={() => {
                         setActive("");
                         // when this is clicked, scroll to the top
