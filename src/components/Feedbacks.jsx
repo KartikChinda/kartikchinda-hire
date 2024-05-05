@@ -8,11 +8,14 @@ const TestimonialCard = ({ testimonial, name, designation, company, index }) => 
     return (
         <div>
             <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-                <div className="mx-auto p-2 border-b-2 border-l-2 border-[#ece6df] rounded-2xl w-[360px] lg:w-[370px] hover:border-t-2 hover:border-r-2 hover:border-b-0 hover:border-l-0">
+                <div className="mx-auto p-2 border-b-2 border-l-2 border-[#ece6df] rounded-2xl w-[360px] lg:w-[500px] hover:border-t-2 hover:border-r-2 hover:border-b-0 hover:border-l-0 ">
                     <div className='mt-5 flex flex-col'>
                         <h2 className='text-[#ece6df] text-5xl font-bold px-5'>"</h2>
                         <p className='px-5 mt-3 text-lg font-subtext text-[#ece6df]'>{testimonial}</p>
-                        <h2 className='text-[#ece6df] text-xl mt-5 pb-5 font-bold px-5'>{name}</h2>
+                        <h2 className='text-[#ece6df] text-xl mt-10 pb-3 font-bold px-5'>{name}</h2>
+                        <h2 className='text-[#ece6df] text-lg pb-5 font-semibold px-5'>{designation}, {company}</h2>
+
+
                     </div>
 
                 </div>
