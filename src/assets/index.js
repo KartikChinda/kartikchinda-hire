@@ -28,10 +28,9 @@ import typescript from "./tech/typescript.png";
 import drdo from './company/drdo.png';
 import dps from './company/dps.png';
 import wloo from './company/wloo.webp'
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import pacman from './pacman.png';
+import isight from './isight.png';
+import memorify from './memorify.jpg';
 
 export {
   logoColor,
@@ -61,7 +60,7 @@ export {
   drdo,
   dps,
   wloo,
-  carrent,
-  jobit,
-  tripguide,
+  pacman,
+  isight,
+  memorify,
 };

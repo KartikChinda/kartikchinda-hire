@@ -20,9 +20,10 @@ import {
     drdo,
     dps,
     wloo,
-    carrent,
-    jobit,
-    tripguide,
+    pacman,
+
+    isight,
+    memorify,
 } from "../assets";
 
 export const navLinks = [
@@ -160,18 +161,18 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
+            "Kartik is a joy to work with. He is hardworking and persistent, making sure to deliver the work assigned to him completely and on time. When there are things he doesn’t know how to do yet, he is eager to learn and is fast on the pickup. Aside from his technical skills, he also has excellent soft skills and communications. He deals with issues and provides constructive feedback tactfully, all while maintaining a positive outlook. Kartik is an indispensable team player — having worked with him for the past three months and seen his work ethic and skills, any software team will be lucky to have Kartik on the team. ",
+        name: "Kirsten Hipolito",
+        designation: "Analytics Engineer",
+        company: "Feld M",
         image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
+            "During a three-month fellowship, I had the opportunity to work with Kartik as his product manager. In the team, he took a lot of initiative and responsibility and thus decisively advanced the product. He also transferred his great motivation and persistence to the others. He has the ability to explain complex technical topics in such a way that they can be understood even without SE background.It has been an honor to work with Kartik.",
+        name: "Jennifer Fetscher",
+        designation: "Product Manager",
+        company: "Koorvi",
         image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
@@ -186,12 +187,12 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Memorify",
         description:
             "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
         tags: [
             {
-                name: "react",
+                name: "ReactJs",
                 color: "blue-text-gradient",
             },
             {
@@ -199,54 +200,54 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "Material UI",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: memorify,
+        sourceCodeLink: "https://github.com/KartikChinda/Memorify",
     },
     {
-        name: "Job IT",
+        name: "Voice automated Pacman game",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "A fully functioning Pacman game, which can be played using voice commands, made with the help of ALAN AI, Vanilla JS, HTML and CSS.",
         tags: [
             {
-                name: "react",
+                name: "javascript",
                 color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
             },
             {
                 name: "css",
+                color: "green-text-gradient",
+            },
+            {
+                name: "ALAN AI",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: pacman,
+        sourceCodeLink: "https://github.com/KartikChinda/PacMan_VoiceAutomated",
+    },
+    {
+        name: "iSight",
+        description:
+            "A payment system made specifically keeping the interests of the visually impaired community in mind.",
+        tags: [
+            {
+                name: "MERN stack",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "WebSpeech API",
+                color: "green-text-gradient",
+            },
+            {
+                name: "HTML QR5 Scanner",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: isight,
+        sourceCodeLink: "https://github.com/KartikChinda/iSight",
     },
 ];
 

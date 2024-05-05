@@ -65,7 +65,7 @@ const Experience = () => {
                             A glimpse into my professional journey
                         </p >
                         <p className='text-7xl mb-3 font-bold tracking-wide text-[#ece6df]'>
-                            Work Experience
+                            Work Experience.
                         </p>
                     </motion.div >
                     <div className='mt-20 flex flex-col'>
