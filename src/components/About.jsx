@@ -35,15 +35,24 @@ const About = () => {
                     <p className='text-5xl mb-3 font-bold tracking-wide'>
                         Who am I?
                     </p>
-                    <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-10 text-xl font-semibold leading-8 pb-5'>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur magnam quasi voluptates eos esse ducimus ut beatae rem praesentium sit excepturi quos reprehenderit amet, velit itaque fugit omnis autem impedit, commodi repellat corrupti porro?
+                    <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-10 text-xl font-medium leading-8 pb-20'>
+                        Before we proceed any further, I must get one thing out in the open.
+                        I once declared a variable as:  <br /><br />
+                        long long ago &nbsp;
+                        <span className='font-bold text-slate-200'>// in a galaxy far, far away</span>
+
+                        <br />  <br />
+                        Now that we have that out of the way, I am Kartik Chinda, a senior at KIIT, Odisha, pursuing an undergrad degree in the field of Computer Sciences and Engineering. With a stellar <span className='font-extrabold hover:drop-shadow-md'> GPA of 9.25/10</span> snd having done notable software development internships at prestigious organizations (UWaterloo, DRDO, DigitalSchmeide Bayern, to name a few), I am currently fresh out on the hunt for that next ambitious product to build, in an organization that runs on code, collaborations and coffee.
+
+                        <br /> <br />
+                        When I am not side eyeing people on using light mode on their IDE's, you can find me reading literature, planning a trip to the nearest hidden jewel in the arms of nature, or at the movies.
                     </motion.p>
 
-                    <div className='mt-10 flex flex-wrap gap-10 md:mt-20'>
+                    {/* <div className='mt-10 flex flex-wrap gap-10 md:mt-20'>
                         {services.map((service, index) => (
                             <ServiceCard key={service.title} index={index} {...service} />
                         ))}
-                    </div>
+                    </div> */}
 
                 </motion.div>
             </section>
