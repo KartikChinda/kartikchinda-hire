@@ -6,6 +6,7 @@ function App() {
   return (
     <>
 
+      {/* <div className='relative z-0'> */}
       <div>
         <div >
           <Navbar />

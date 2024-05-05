@@ -20,10 +20,13 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import githublogo from './githublogo.jpg'
 
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 
+import gmail from './gmail.png'
+import linkedin from './linkedin.webp'
 
 import drdo from './company/drdo.png';
 import dps from './company/dps.png';
@@ -38,11 +41,13 @@ export {
   creator,
   mobile,
   web,
+  githublogo,
   github,
   menu,
   close,
   css,
-
+  linkedin,
+  gmail,
   figma,
   git,
   html,
