@@ -21,10 +21,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import drdo from './company/drdo.png';
+import dps from './company/dps.png';
+import wloo from './company/wloo.webp'
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -52,10 +51,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  drdo,
+  dps,
+  wloo,
   carrent,
   jobit,
   tripguide,
