@@ -34,9 +34,40 @@ import wloo from './company/wloo.webp'
 import pacman from './pacman.png';
 import isight from './isight.png';
 import memorify from './memorify.jpg';
+import ka from './alphabets/ka.png';
+import aa from './alphabets/aa.png';
+import da from './alphabets/da.png';
+import na from './alphabets/na.png';
+import ta from './alphabets/ta.png';
+import ra from './alphabets/ra.png';
+import ca from './alphabets/ca.png';
+import ha from './alphabets/ha.png';
+import ia from './alphabets/ia.png';
+import kasecond from './alphabets/kasecond.png';
+import hanginglight from './hanginglight.png';
+import backgroundImage from './background.jpg';
+import parallaxforeground from './parallaxforeground.jpg';
+import bwbg from './bwbg.jpg';
+import bwnew from './bwnew.jpg';
+
 
 export {
+  bwbg,
+  bwnew,
+  parallaxforeground,
+  backgroundImage,
   logoColor,
+  hanginglight,
+  kasecond,
+  ka,
+  aa,
+  da,
+  na,
+  ia,
+  ta,
+  ra,
+  ha,
+  ca,
   backend,
   creator,
   mobile,

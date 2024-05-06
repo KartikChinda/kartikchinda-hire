@@ -10,7 +10,11 @@ export default {
         'dot': ['DotGothic16'],
         'heading': ['Big Shoulders Display'],
         'subtext': ['Heebo']
-      }
+      },
+      backgroundImage: theme => ({
+        'hero-background': "url('/src/assets/bwbg.jpg')",
+
+      })
     },
   },
   plugins: [],
