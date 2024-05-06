@@ -9,7 +9,7 @@ import { textVariant } from '../util/motion';
 
 const Contact = () => {
     return (
-        <section className='p-2 mt-20 m-2 pb-20 border-2 border-[#ece6df] '>
+        <section className='p-2 mt-20 m-2 pb-16 border-2 border-[#ece6df] '>
             <motion.div variants={textVariant()} className='md:mt-10'>
                 <p className='text-lg mb-1 font-semibold text-[#ece6df]'>Interested? </p>
                 <p className='text-7xl mb-10 font-semibold tracking-wide text-[#ece6df] '>Let's get in touch!</p>

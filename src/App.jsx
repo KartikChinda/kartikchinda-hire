@@ -1,6 +1,6 @@
 
 import { Kmodel } from './canvas';
-import { About, Contact, Experience, Feedbacks, Navbar, Hero, Works, Tech, Loader } from './components'
+import { About, Contact, Experience, Feedbacks, Navbar, Hero, Works, Tech } from './components'
 
 function App() {
 
@@ -23,7 +23,6 @@ function App() {
       <Feedbacks />
       <div className='relative z-0'>
         <Contact />
-        {/* <Loader /> */}
       </div>
       <div>
         <Kmodel />

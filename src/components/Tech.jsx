@@ -10,7 +10,7 @@ const Tech = () => {
         <>
             <section>
                 <motion.div variants={textVariant()} className='md:mt-10 px-10'>
-                    <p className='text-lg mb-1 font-semibold text-[#ece6df]'>Ever-learning, ever-growing</p>
+                    <p className='text-lg mb-1 font-semibold text-[#ece6df]'>Tech I take out for a spin everyday, literally. </p>
                     <p className='text-7xl mb-3 font-semibold tracking-wide text-[#ece6df]'>Tools in my arsenal.</p>
                 </motion.div>
                 <div className='flex flex-row flex-wrap justify-center items-center gap-10 mt-20 '>

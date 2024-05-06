@@ -46,15 +46,19 @@ import ia from './alphabets/ia.png';
 import kasecond from './alphabets/kasecond.png';
 import hanginglight from './hanginglight.png';
 import backgroundImage from './background.jpg';
-import parallaxforeground from './parallaxforeground.jpg';
+import paraForeground from './paraForeground.jpg';
 import bwbg from './bwbg.jpg';
 import bwnew from './bwnew.jpg';
+import finalBackground from './finalBackground.jpg';
+import finalbg from './finalbg.jpg';
 
 
 export {
+  finalbg,
+  finalBackground,
   bwbg,
   bwnew,
-  parallaxforeground,
+  paraForeground,
   backgroundImage,
   logoColor,
   hanginglight,

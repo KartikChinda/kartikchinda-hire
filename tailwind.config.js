@@ -12,7 +12,7 @@ export default {
         'subtext': ['Heebo']
       },
       backgroundImage: theme => ({
-        'hero-background': "url('/src/assets/bwbg.jpg')",
+        'hero-background': "url('/src/assets/finalbg.jpg')",
 
       })
     },
