@@ -1,8 +1,5 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
+
     javascript,
     typescript,
     html,
@@ -21,18 +18,9 @@ import {
     dps,
     wloo,
     pacman,
-    ka,
-    aa,
-    ra,
-    ta,
-    ca,
-    ha,
-    na,
-    da,
-    ia,
     isight,
     memorify,
-    kasecond,
+
 } from "../assets";
 
 
@@ -52,24 +40,7 @@ export const navLinks = [
     },
 ];
 
-const services = [
-    {
-        title: "Web Developer",
-        icon: web,
-    },
-    {
-        title: "React Native Developer",
-        icon: mobile,
-    },
-    {
-        title: "Backend Developer",
-        icon: backend,
-    },
-    {
-        title: "Content Creator",
-        icon: creator,
-    },
-];
+
 
 const technologies = [
     {
@@ -131,56 +102,7 @@ const technologies = [
 
 ];
 
-const alphabets = [
-    {
-        name: "first",
-        icon: ka,
-    },
-    {
-        name: "second",
-        icon: aa,
-    },
-    {
-        name: "third",
-        icon: ra,
-    },
-    {
-        name: "fourth",
-        icon: ta,
-    },
-    {
-        name: "fifth",
-        icon: ia,
-    },
-    {
-        name: "sixth",
-        icon: kasecond,
-    },
-    // {
-    //     name: "C",
-    //     icon: ca,
-    // },
-    // {
-    //     name: "H",
-    //     icon: ha,
-    // },
-    // {
-    //     name: "Ik",
-    //     icon: ia,
-    // },
-    // {
-    //     name: "N",
-    //     icon: na,
-    // },
-    // {
-    //     name: "D",
-    //     icon: da,
-    // },
-    // {
-    //     name: "Ak",
-    //     icon: aa,
-    // },
-]
+
 
 const experiences = [
     {
@@ -306,4 +228,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects, alphabets };
+export { technologies, experiences, testimonials, projects };

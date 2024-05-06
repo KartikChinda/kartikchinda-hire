@@ -1,9 +1,7 @@
 // import logo from './logo-white.svg';
-import logoColor from './logoColor.png'
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+
+
+import logoColor from './logoColor.png';
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -34,21 +32,11 @@ import wloo from './company/wloo.webp'
 import pacman from './pacman.png';
 import isight from './isight.png';
 import memorify from './memorify.jpg';
-import ka from './alphabets/ka.png';
-import aa from './alphabets/aa.png';
-import da from './alphabets/da.png';
-import na from './alphabets/na.png';
-import ta from './alphabets/ta.png';
-import ra from './alphabets/ra.png';
-import ca from './alphabets/ca.png';
-import ha from './alphabets/ha.png';
-import ia from './alphabets/ia.png';
-import kasecond from './alphabets/kasecond.png';
-import hanginglight from './hanginglight.png';
-import backgroundImage from './background.jpg';
+
+
+
 import paraForeground from './paraForeground.jpg';
-import bwbg from './bwbg.jpg';
-import bwnew from './bwnew.jpg';
+
 import finalBackground from './finalBackground.jpg';
 import finalbg from './finalbg.jpg';
 
@@ -56,26 +44,10 @@ import finalbg from './finalbg.jpg';
 export {
   finalbg,
   finalBackground,
-  bwbg,
-  bwnew,
-  paraForeground,
-  backgroundImage,
   logoColor,
-  hanginglight,
-  kasecond,
-  ka,
-  aa,
-  da,
-  na,
-  ia,
-  ta,
-  ra,
-  ha,
-  ca,
-  backend,
-  creator,
-  mobile,
-  web,
+
+  paraForeground,
+
   githublogo,
   github,
   menu,

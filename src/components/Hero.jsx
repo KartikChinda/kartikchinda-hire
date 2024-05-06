@@ -1,10 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion';
-import { alphabets } from '../constants';
+
 import { HeadBallCanvas } from '../canvas';
 // import { BallCanvas } from '../canvas';
-import { hanginglight } from '../assets';
-import { backgroundImage } from '../assets';
 import { paraForeground } from '../assets';
 
 
