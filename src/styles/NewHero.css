@@ -1,0 +1,62 @@
+#container {
+    width: 98.9vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+#gallery {
+    width: 140vw;
+    height: 170vh;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10em;
+}
+
+#row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#targetimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#targetimg:hover {
+    opacity: 0.4;
+}
+
+#item {
+    position: relative;
+    width: 400px;
+    height: 275px;
+    overflow: hidden;
+}
+
+#imagename {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    opacity: 0;
+    transition: 0.15s;
+    z-index: 2;
+}
+
+#item:hover #imagename {
+    opacity: 1;
+}

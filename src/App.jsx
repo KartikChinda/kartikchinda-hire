@@ -1,5 +1,6 @@
 
 import { About, Contact, Experience, Feedbacks, Navbar, Hero, Works, Tech } from './components'
+import NewHero from './components/NewHero';
 
 function App() {
 
@@ -10,7 +11,8 @@ function App() {
       <div>
         <div >
           <Navbar />
-          <Hero />
+          <NewHero />
+          {/* <Hero /> */}
 
         </div>
 
