@@ -13,6 +13,7 @@ export default {
       },
       backgroundImage: theme => ({
         'hero-background': "url('/src/assets/finalbg.jpg')",
+        'hero-md': "url('/src/assets/mdbg.jpg')",
 
       })
     },

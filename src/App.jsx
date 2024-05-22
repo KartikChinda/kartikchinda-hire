@@ -11,8 +11,14 @@ function App() {
       <div>
         <div >
           <Navbar />
-          <NewHero />
-          {/* <Hero /> */}
+          <div className='block lg:hidden'>
+            <Hero />
+
+          </div>
+          <div className='hidden lg:block'>
+            <NewHero />
+          </div>
+
 
         </div>
 

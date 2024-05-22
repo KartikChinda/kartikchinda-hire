@@ -16,8 +16,8 @@ const NewHero = () => {
             const rows = [
                 // who wrote this, a non programmer? (counting joke in case I am not funny anymore)
                 { id: 1, count: 3 },
-                { id: 2, count: 2 },
-                { id: 3, count: 2 },
+                { id: 2, count: 4 },
+                { id: 3, count: 3 },
             ]
 
             const newItems = rows.map((row) => {
@@ -48,7 +48,7 @@ const NewHero = () => {
 
             console.log("InmouseMove: ", clientX, clientY)
 
-            const sensitivity = 1;
+            const sensitivity = 0.8;
 
             const deltaX = (centerX - clientX) / sensitivity;
             const deltaY = (centerY - clientY) / sensitivity;

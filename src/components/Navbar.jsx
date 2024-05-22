@@ -30,7 +30,7 @@ const Navbar = () => {
                         <img src={logoColor} alt="imgLogo" className='w-20 h-20 object-contain ' />
                     </a>
 
-                    <p className='text-[#ece6df] text-[18px] font-bold cursor-pointer md:block hidden font-dot'>K&nbsp; &nbsp;  A&nbsp; &nbsp; R&nbsp; &nbsp; T&nbsp; &nbsp; I&nbsp; &nbsp; K&nbsp; &nbsp; &nbsp; &nbsp; C&nbsp; &nbsp; H&nbsp; &nbsp; I&nbsp; &nbsp; N&nbsp; &nbsp; D&nbsp; &nbsp; A </p>
+                    <p className='text-[#ece6df] text-[18px] font-bold cursor-pointer lg:block hidden font-dot '>K&nbsp; &nbsp;  A&nbsp; &nbsp; R&nbsp; &nbsp; T&nbsp; &nbsp; I&nbsp; &nbsp; K&nbsp; &nbsp; &nbsp; &nbsp; C&nbsp; &nbsp; H&nbsp; &nbsp; I&nbsp; &nbsp; N&nbsp; &nbsp; D&nbsp; &nbsp; A </p>
                     {/* </Link> */}
                     {/* <ul className='list-none hidden sm:flex flex-row gap-10'>
                         {navLinks.map((link) => (

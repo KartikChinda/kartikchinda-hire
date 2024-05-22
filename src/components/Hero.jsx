@@ -12,7 +12,11 @@ const Hero = () => {
     return (
         <>
             <section id='header' className='bg-[#050c0F] mt-[105px]'>
-                <div className=" h-[102vh] w-[100%] bg-hero-background relative ">
+                <div className=" h-[102vh] w-[100%] bg-hero-background md:hidden relative ">
+                    <img src={paraForeground} alt="" className='hidden md:block h-[500px] w-[400px] z-30 absolute -top-5 bottom-0 left-0 right-0 m-auto ' />
+
+                </div>
+                <div className=" h-[102vh] w-[100%] hidden md:block lg:hidden relative bg-gradient-to-t from-[#050c0F] to-[#10232c]">
                     <img src={paraForeground} alt="" className='hidden md:block h-[500px] w-[400px] z-30 absolute -top-5 bottom-0 left-0 right-0 m-auto ' />
 
                 </div>
