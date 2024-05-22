@@ -5,7 +5,7 @@ import logoColor from './logoColor.png';
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import trpc from "./tech/trpclogo.svg"
 import css from "./tech/css.png";
 import next from './tech/next.png';
 import postgres from './tech/postgres.jpg';
@@ -18,7 +18,10 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import githublogo from './githublogo.jpg'
+import githublogo from './githublogo.jpg';
+import sketch from './sketch.png';
+import pixel from './pixel.png';
+import color from './color.png';
 
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -45,9 +48,11 @@ export {
   finalbg,
   finalBackground,
   logoColor,
-
+  trpc,
   paraForeground,
-
+  pixel,
+  sketch,
+  color,
   githublogo,
   github,
   menu,

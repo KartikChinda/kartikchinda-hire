@@ -7,14 +7,14 @@ import { fadeIn, textVariant } from '../util/motion';
 import { Tilt } from 'react-tilt';
 
 
-const ProjectCard = ({ index, name, description, tags, image, sourceCodeLink }) => {
+const ProjectCard = ({ index, name, description, tags, image, websiteLink, sourceCodeLink }) => {
     return (
         <div>
             <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-                <Tilt options={{ max: 45, scale: 1, speed: 450 }} className="mx-auto p-2 border-b-2 border-l-2 border-[#ece6df] rounded-2xl w-[360px] lg:w-[370px]">
-                    <div className='relative w-full h-[350px]'>
+                <Tilt options={{ max: 45, scale: 1, speed: 450 }} className="mx-auto h-[900px] p-2 border-b-2 border-l-2 border-[#ece6df] rounded-2xl w-[360px] lg:w-[370px]">
+                    <div className='relative w-full h-[400px]'>
                         <img src=
-                            {image} alt={name} className='w-full  h-[300px] object-cover rounded-2xl' />
+                            {image} alt={name} className='w-full h-[300px] object-cover rounded-2xl' />
                         <div className='absolute inset-0 flex justify-end m-2 '>
                             <div
                                 onClick={() => window.open(sourceCodeLink, "_blank")}
@@ -29,7 +29,7 @@ const ProjectCard = ({ index, name, description, tags, image, sourceCodeLink }) 
                         </div>
                     </div>
                     <div className='mt-5 flex flex-col'>
-                        <h2 className='text-[#ece6df] text-3xl font-bold px-5'>{name}</h2>
+                        <a className='text-[#ece6df] text-3xl font-bold px-5' href={websiteLink} target="_blank">{name}</a>
                         <p className='px-5 mt-3 text-lg font-subtext text-[#ece6df]'>{description}</p>
                     </div>
                     <div className='mt-4 px-5 flex flex-wrap gap-2'>
@@ -61,7 +61,7 @@ const Works = () => {
                 I believe in crafting products that leave an intentional, engaging, and delightful impression on people. With a blend of storytelling and my never ending thirst for learning new technology, all my projects aim to deliver long term sustainable systems.
             </motion.p>
 
-            <div className='mt-10 flex flex-wrap gap-10 md:mt-20 lg:justify-center'>
+            <div className='mt-10 flex flex-wrap gap-10 md:mt-20 lg:justify-center '>
                 {projects.map((project, index) => (
                     <ProjectCard key={index} index={index} {...project} />
                 ))}

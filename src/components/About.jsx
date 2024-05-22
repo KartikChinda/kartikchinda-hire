@@ -41,10 +41,12 @@ const About = () => {
                         <span className='font-normal  text-[#ece6df88]'>// in a galaxy far, far away</span>
 
                         <br />  <br />
-                        Now that we have that out of the way, I am Kartik Chinda, a senior at KIIT, Odisha, pursuing an undergrad degree in the field of Computer Sciences and Engineering. With a stellar <span className='font-black text-[#ece6df] hover:drop-shadow-lg'> GPA of 9.25/10</span> snd having done notable software development and research internships at prestigious organizations (UWaterloo, DRDO, DigitalSchmeide Bayern, to name a few), open source contributions, authored research papers in prestigious journals, I am currently fresh out on the hunt for that next ambitious product to build, in an organization that runs on code, collaborations and coffee.
+                        Now that we have that out of the way, I am Kartik Chinda, a senior at KIIT, Odisha, pursuing an undergrad degree in the field of Computer Sciences and Engineering. During my undergrad, I maintained a stellar <span className='font-bold text-[#ece6df] hover:drop-shadow-lg'> GPA of 9.25/10</span>, did some notable software development and research internships at prestigious organizations (<span className='font-bold text-[#ece6df] hover:drop-shadow-lg'>UWaterloo, DRDO, DigitalSchmeide Bayern</span>, to name a few), contributed to open source, and authored quite a few research papers.
+                        <br /> <br />
+                        Now, I am currently fresh out on the hunt for that next ambitious product to build, in an organization that runs on <span className='italic hover:not-italic font-semibold'>code, collaborations and coffee</span>.
 
                         <br /> <br />
-                        When I am not side eyeing people on using light mode on their IDE's, or writing the most hilarious git commit messages, you can find me reading literature, planning a trip to the nearest hidden jewel in the arms of nature, or at the movies.
+                        When I am not side eyeing people on using light mode on their IDE's, or writing the most hilarious git commit messages, you can find me engrossed in literature, planning a trip to the nearest hidden jewel in the arms of nature, or at the movies.
                     </motion.p>
 
                     {/* <div className='mt-10 flex flex-wrap gap-10 md:mt-20'>

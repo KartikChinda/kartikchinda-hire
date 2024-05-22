@@ -14,12 +14,16 @@ import {
     postgres,
     cplusplus,
     c,
+    pixel,
+    color,
+    sketch,
     drdo,
     dps,
     wloo,
     pacman,
     isight,
     memorify,
+    trpc,
 
 } from "../assets";
 
@@ -80,8 +84,8 @@ const technologies = [
         icon: git,
     },
     {
-        name: "C",
-        icon: c,
+        name: "tRPC",
+        icon: trpc,
     },
     {
         name: "C++",
@@ -164,67 +168,73 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Memorify",
+        name: "SketchTogether",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "SketchTogether could be the game you play with a friend to pass the time, or the ultimate collaborative sketching experience. Unleash your creativity and bond with friends as you co-create on a shared sketchboard. The rules are simple, so come on, unleash your inner talent and transform doodling into an engaging and fun experience. Dive into the joy of artistic collaboration, and have fun.",
         tags: [
             {
-                name: "ReactJs",
-                color: "blue-text-gradient",
+                name: "NextJs",
             },
             {
-                name: "mongodb",
-                color: "green-text-gradient",
+                name: "CanvasAPI",
             },
             {
-                name: "Material UI",
-                color: "pink-text-gradient",
+                name: "Tailwind CSS",
             },
         ],
-        image: memorify,
-        sourceCodeLink: "https://github.com/KartikChinda/Memorify",
+        image: sketch,
+        sourceCodeLink: "https://github.com/KartikChinda/sketchTogether",
+        websiteLink: "https://sketch-together.vercel.app/",
     },
     {
-        name: "Voice automated Pacman game",
+        name: "PixelPlex",
         description:
-            "A fully functioning Pacman game, which can be played using voice commands, made with the help of ALAN AI, Vanilla JS, HTML and CSS.",
+            "A fully functioning video conferencing app, PixelPlex revolutionizes your virtual interactions with seamless, high-quality video conferencing, crystal-clear communication and collaboration, intuitive features and a user-friendly interface. Schedule meetings, record meetings, and do so much more on PixelPlex, and experience the future of virtual engagement.",
         tags: [
             {
-                name: "javascript",
-                color: "blue-text-gradient",
+                name: "NextJs 14",
+
             },
             {
-                name: "css",
-                color: "green-text-gradient",
+                name: "Clerk",
+
             },
             {
-                name: "ALAN AI",
-                color: "pink-text-gradient",
+                name: "Stream",
+
+            },
+            {
+                name: "Tailwind CSS",
+
+            },
+            {
+                name: "Shadcn-ui",
+
             },
         ],
-        image: pacman,
+        image: pixel,
         sourceCodeLink: "https://github.com/KartikChinda/PacMan_VoiceAutomated",
+        websiteLink: "https://pixel-plex.vercel.app/"
     },
     {
-        name: "iSight",
+        name: "ColorMyApp",
         description:
-            "A payment system made specifically keeping the interests of the visually impaired community in mind.",
+            "Still searching for a color palettes for your next project? Look no further, for your search ends here. Choose from a stunning range of palettes uploaded by people all over the world, preview them on a sample site before deciding the final palette for your work. Not only this, if you have a gorgeous color palette, share it with the rest of the world to see.",
         tags: [
             {
-                name: "MERN stack",
-                color: "blue-text-gradient",
+                name: "NextJs 14",
+
             },
             {
-                name: "WebSpeech API",
-                color: "green-text-gradient",
+                name: "Tailwind CSS",
+
             },
-            {
-                name: "HTML QR5 Scanner",
-                color: "pink-text-gradient",
-            },
+
+
         ],
-        image: isight,
-        sourceCodeLink: "https://github.com/KartikChinda/iSight",
+        image: color,
+        sourceCodeLink: "https://github.com/KartikChinda/colormyapp",
+        websiteLink: "https://colormyapp.vercel.app/"
     },
 ];
 
