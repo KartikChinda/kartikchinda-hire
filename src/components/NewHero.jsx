@@ -57,11 +57,11 @@ const NewHero = () => {
 
         }
 
-        const container = document.querySelector("#gallery");
-        container.addEventListener("mousemove", handleMouseMove);
+        // const container = document.querySelector("#gallery");
+        galleryRef.current.addEventListener("mousemove", handleMouseMove);
 
         return () => {
-            container.removeEventListener("mousemove", handleMouseMove);
+            galleryRef.current.removeEventListener("mousemove", handleMouseMove);
         }
 
     }, [])
