@@ -27,6 +27,7 @@
 
 #row:nth-child(2) {
     justify-content: space-around;
+    gap: 30px;
 
 
 }

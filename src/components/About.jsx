@@ -49,11 +49,6 @@ const About = () => {
                         When I am not side eyeing people on using light mode on their IDE's, or writing the most hilarious git commit messages, you can find me engrossed in literature, planning a trip to the nearest hidden jewel in the arms of nature, or at the movies.
                     </motion.p>
 
-                    {/* <div className='mt-10 flex flex-wrap gap-10 md:mt-20'>
-                        {services.map((service, index) => (
-                            <ServiceCard key={service.title} index={index} {...service} />
-                        ))}
-                    </div> */}
 
                 </motion.div>
             </section>
