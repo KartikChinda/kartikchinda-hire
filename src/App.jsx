@@ -5,7 +5,7 @@ import NewHero from './components/NewHero';
 function App() {
 
   return (
-    <>
+    <section className=' overflow-x-hidden no-scrollbar'>
 
       {/* <div className='relative z-0'> */}
       <div>
@@ -35,7 +35,7 @@ function App() {
 
 
 
-    </>
+    </section>
   )
 }
 

@@ -1,27 +1,9 @@
 import React from 'react'
-import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
 import { fadeIn, textVariant } from '../util/motion'
 import { SectionWrapper } from '../hoc'
 
-const ServiceCard = ({ title, index, icon }) => {
-    return (
-        // <p>{title}</p>
 
-        <Tilt className=" mx-auto w-[300px] xs:w-full md:mx-0 mb-10">
-            <motion.div variants={fadeIn("right", "spring", index * 0.5, 0.75)} className='w-full bg-white p-1 rounded-[20px] z-20 bg-gradient-to-r from-cyan-500 to-blue-500'>
-                {/* here options are the tilt options we are providing to the cards that we have */}
-                <div options={{ max: 45, scale: 1, speed: 450 }} className='bg-white-200 rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col z-10 shadow-[0_35px_60px_-15px_rgba(144,0,0,0.6)]'>
-                    <img src={icon} alt={title} className='w-16 h-16 object-contain' />
-                    <h3 className='text-white text-xl font-bold text-center'>
-                        {title}
-                    </h3>
-                </div>
-            </motion.div>
-        </Tilt>
-
-    )
-}
 
 const About = () => {
     return (
