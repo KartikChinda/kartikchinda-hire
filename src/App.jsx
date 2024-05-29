@@ -28,7 +28,6 @@ function App() {
       <Tech />
       <div className='text-[#ece6df]'>
         <Works />
-
       </div>
       <Feedbacks />
       <div>
