@@ -1,6 +1,7 @@
 
 import { About, Contact, Experience, Feedbacks, Navbar, Hero, Works, Tech } from './components'
 import NewHero from './components/NewHero';
+import WorksMobile from './components/WorksMobile';
 
 function App() {
 
@@ -26,8 +27,11 @@ function App() {
       <About />
       <Experience />
       <Tech />
-      <div className='text-[#ece6df]'>
+      <div className='hidden md:block text-[#ece6df]'>
         <Works />
+      </div>
+      <div className='md:hidden'>
+        <WorksMobile />
       </div>
       <Feedbacks />
       <div>

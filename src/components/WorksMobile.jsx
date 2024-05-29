@@ -7,11 +7,12 @@ import { fadeIn, textVariant } from '../util/motion';
 
 
 
+
 const ProjectCard = ({ index, name, description, tags, image, websiteLink, sourceCodeLink }) => {
     return (
         <div>
-            <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-                <div className="mx-auto  text-[#ece6df] h-[900px] p-2 border-b-2 border-l-2 border-[#ece6df] rounded-2xl w-[360px] lg:w-[370px]   hover:border-t-2 hover:border-r-2 hover:border-b-0 hover:border-l-0">
+            <div>
+                <div className="mx-auto  text-[#ece6df] h-[900px] p-2 border-b-2 border-l-2 border-[#ece6df] rounded-2xl w-[360px] lg:w-[370px]   ">
                     <div className='relative w-full h-[350px]'>
                         <img src=
                             {image} alt={name} className='w-full h-[300px] object-cover rounded-2xl' />
@@ -43,12 +44,10 @@ const ProjectCard = ({ index, name, description, tags, image, websiteLink, sourc
                         ))}
                     </div>
                 </div>
-            </motion.div>
+            </div>
         </div >
     )
 }
-
-
 
 
 
