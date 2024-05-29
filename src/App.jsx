@@ -5,7 +5,7 @@ import NewHero from './components/NewHero';
 function App() {
 
   return (
-    <section className=' overflow-x-hidden no-scrollbar'>
+    <section className=' overflow-x-hidden text-[#ece6df]'>
 
       {/* <div className='relative z-0'> */}
       <div>
@@ -26,9 +26,12 @@ function App() {
       <About />
       <Experience />
       <Tech />
-      <Works />
+      <div className='text-[#ece6df]'>
+        <Works />
+
+      </div>
       <Feedbacks />
-      <div className='relative z-0'>
+      <div>
         <Contact />
       </div>
 

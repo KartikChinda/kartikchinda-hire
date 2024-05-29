@@ -57,7 +57,7 @@ const NewHero = () => {
 
         }
 
-        // const container = document.querySelector("#gallery");
+
         galleryRef.current.addEventListener("mousemove", handleMouseMove);
 
         return () => {
