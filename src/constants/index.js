@@ -24,6 +24,7 @@ import {
     isight,
     memorify,
     trpc,
+    dera,
 
 } from "../assets";
 
@@ -109,6 +110,16 @@ const technologies = [
 
 
 const experiences = [
+    {
+        title: "Software Engineer",
+        company_name: "DERA",
+        icon: dera,
+        iconBg: "#000",
+        date: "June 2024 - Present",
+        points: [
+            "WorkingwithWagmi,RainbowKit, Next,js and Typescript to integrate smart contracts with the frontend, along with also managing the MVP repository and it's deployments on AWS. Also integrating CMS's like Ghost with the frontend.",
+        ],
+    },
     {
         title: "Research Scholar",
         company_name: "University of Waterloo, Canada (MITACS-GRI)",

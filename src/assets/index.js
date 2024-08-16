@@ -22,6 +22,7 @@ import githublogo from './githublogo.jpg';
 import sketch from './sketch.png';
 import pixel from './pixel.png';
 import color from './color.png';
+import dera from './company/dera.png'
 
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -67,7 +68,7 @@ export {
   mongodb,
   nodejs,
   reactjs,
-
+  dera,
   tailwind,
   typescript,
   next,
