@@ -117,7 +117,7 @@ const experiences = [
         iconBg: "#000",
         date: "June 2024 - Present",
         points: [
-            "WorkingwithWagmi,RainbowKit, Next,js and Typescript to integrate smart contracts with the frontend, along with also managing the MVP repository and it's deployments on AWS. Also integrating CMS's like Ghost with the frontend.",
+            "Working with Wagmi,RainbowKit, Next,js and Typescript to integrate smart contracts with the frontend, along with also managing the MVP repository and it's deployments on AWS. Also integrating CMS's like Ghost with the frontend.",
         ],
     },
     {
